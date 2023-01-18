@@ -11,58 +11,78 @@
 </head>
 
 <body>
-    <div>
+
+    <nav id="menu-encolumnado-celulares">
+        <a href="../index.html" class="diferentes">Inicio</a>
+        <a href="../Paginas/JUMBO.HTML">Jumbo</a>
+        <!--Desde aca (mediante estos enlaces externos) voy a las distintas paginas-->
+        <a href="../Paginas/YAMAHA.HTML">Yamaha</a>
+        <a href="../Paginas/FENDER.HTML">Fender</a>
+        <a href="../Paginas/STRATOCASTER.HTML">Stratocaster</a>
+        <a href="../Paginas/TELECASTER.HTML">Telecaster</a>
+
+    </nav>
+
+
+
+    <section>
+
         <form action="https://formspree.io/f/myyvlgyw" method="POST">
 
-            <fieldset>
-                <legend>Datos personales</legend>
-                <br>
-                <label for="Nombre">Nombres:</label>
-                <input type="text" id="Nombre" name="Nombre"><br>
-                <hr>
-                <label for="Apellido">Apellidos:</label>
-                <input type="text" id="Apellido" name="Apellido"><br>
-                <hr>
-                <label for="email">Direccion de email:</label>
-                <input type="email" id="email" name="email"><br>
-                <hr>
-                <label for="Telefono">Telefono:</label>
-                <input type="text" id="Telefono" name="Telefono"><br>
-                <hr>
-                <label for="domicilio">Direccion:</label>
-                <input type="text" id="domicilio" name="domicilio"><br>
+            <div>
+                <fieldset class="formulario">
+                    <legend>Datos personales</legend>
+                    <br>
+                    <label for="Nombre">Nombres:</label>
+                    <input type="text" id="Nombre" name="Nombre"><br>
+                    <hr>
+                    <label for="Apellido">Apellidos:</label>
+                    <input type="text" id="Apellido" name="Apellido"><br>
+                    <hr>
+                    <label for="email">Direccion de email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <hr>
+                    <label for="Telefono">Telefono:</label>
+                    <input type="text" id="Telefono" name="Telefono"><br>
+                    <hr>
+                    <label for="domicilio">Direccion:</label>
+                    <input type="text" id="domicilio" name="domicilio"><br>
 
-                <hr>
-            </fieldset><br><br>
+                    <hr>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset class="formulario2">
+                    <legend>Seleccione su instrumento</legend>
 
-            <fieldset>
-                <legend>Seleccione su instrumento</legend>
+                    <hr>
+                    <input type="checkbox" id="instrumento" name="instrumento" value="Guitarra Jumbo">
+                    <label for="instrumento"> Jumbo</label><br>
+                    <input type="checkbox" id="instrumento" name="instrumento" value="Guitarra Yamaha">
+                    <label for="instrumento"> Yamaha</label><br>
+                    <input type="checkbox" id="instrumento" name="instrumento" value="Guitarra Fender">
+                    <label for="instrumento"> Fender</label><br>
+                    <input type="checkbox" id="instrumento" name="instrumento" value="Guitarra Stratocaster">
+                    <label for="instrumento"> Stratocaster</label><br>
+                    <input type="checkbox" id="instrumento" name="instrumento" value="Guitarra Telecaster">
+                    <label for="instrumento"> Telecaster</label>
+                    <hr>
 
-                <hr>
-                <input type="checkbox" id="instrumento" name="instrumento" value="Guitarra Jumbo">
-                <label for="instrumento"> Jumbo</label><br>
-                <input type="checkbox" id="instrumento" name="instrumento" value="Guitarra Yamaha">
-                <label for="instrumento"> Yamaha</label><br>
-                <input type="checkbox" id="instrumento" name="instrumento" value="Guitarra Fender">
-                <label for="instrumento"> Fender</label><br>
-                <input type="checkbox" id="instrumento" name="instrumento" value="Guitarra Stratocaster">
-                <label for="instrumento"> Stratocaster</label><br>
-                <input type="checkbox" id="instrumento" name="instrumento" value="Guitarra Telecaster">
-                <label for="instrumento"> Telecaster</label>
-                <hr>
+                    <label for="Comentarios">Datos a tener en cuenta :</label><br>
 
-                <label for="Comentarios">Datos a tener en cuenta :</label><br>
+                    <textarea id="Comentarios" name="Comentarios" rows="4" cols="18"></textarea>
 
-                <textarea id="Comentarios" name="Comentarios" rows="4" cols="50">
+                    <input type="submit" value="Comprar">
+            </div>
+        </form>
+    </section>
 
-</textarea><br><br>
+    <footer>
+        todos los derechos reservados 2023.
+    </footer>
 
-                <input type="submit" value="Comprar">
-    </div>
-    <nav>
-        <a href="../index.html">Cancelar</a>
-    </nav>
-    </form>
 </body>
+
+
 
 </html>

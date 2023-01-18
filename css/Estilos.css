@@ -3,13 +3,22 @@
 #contencion {
   width: 100%; }
 
+.diferentes {
+  color: #0863eb;
+  background-color: #ff4a02;
+  padding: 15px 30px;
+  width: 60px;
+  border-radius: 12px;
+  text-decoration: none; }
+
 p {
   background-color: #9dc7ec;
   border-radius: 8px;
   font-size: 20px;
-  color: #183ee7;
+  color: #070c20;
   margin: 3px 5px 3px 5px;
-  padding: 5px 6px 5px 6px; }
+  padding: 5px 6px 5px 6px;
+  font-family: sans-serif; }
 
 .doce {
   display: block;
@@ -22,8 +31,8 @@ span {
 
 nav
 a {
-  color: #1f0c88;
-  background-color: red;
+  color: #100e1a;
+  background-color: #bbf55e;
   padding: 15px 30px;
   width: 60px;
   border-radius: 12px;
@@ -68,7 +77,8 @@ footer {
   color: #3cff00;
   margin: auto;
   padding: 5px 5px 5px 5px;
-  text-align: center; }
+  text-align: center;
+  margin-top: 55px; }
 
 h2 {
   color: #ff5e00; }
@@ -112,7 +122,8 @@ form {
   color: #ff3c00; }
 
 img {
-  margin: 0 5px 0 5px; }
+  margin: 5px 5px 5px 5px;
+  width: 100%; }
 
 .fotos1 {
   display: block;
@@ -123,11 +134,12 @@ img {
 
 h1 {
   border-radius: 15px;
-  background-color: bisque;
+  background-color: #709af5;
   display: flex;
   justify-content: center;
   margin: auto;
-  max-width: 370px; }
+  max-width: 370px;
+  margin-bottom: 6px; }
 
 .contenedor {
   display: flex;
@@ -239,6 +251,16 @@ footer {
 /*aca comienza la parte responsive*/
 /*tablet*/
 @media (max-width: 1024px) {
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #070c20; }
+  .diferentes {
+    color: #0863eb;
+    background-color: #ff4a02;
+    padding: 15px 30px;
+    width: 60px;
+    border-radius: 12px;
+    text-decoration: none; }
   #contencion {
     width: 100%; }
   #arbitro {
@@ -250,17 +272,27 @@ footer {
   #imagen {
     /*la imagen del index tiene un borde redondeado*/
     border-radius: 350px;
-    max-width: 850px;
-    margin: auto; }
+    width: 600px;
+    height: 480px;
+    display: block;
+    margin: auto;
+    margin-top: 15px; }
   body {
     /*imagen de fondo fija para todo el sitio*/
     background-image: url(../Imagenes/fondo-general-para-tablet.jpg);
     padding: auto; }
   h2 {
-    color: #1cc4ee; }
+    color: #ff5f03;
+    background-color: #b5c7a5;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px; }
   .treinta {
     /*titulo de los articulos a vender*/
-    color: #1cc4ee;
+    color: #153be2;
     margin-top: 55px;
     border-radius: 15px;
     text-align: center; }
@@ -296,24 +328,33 @@ footer {
     /*les doy un llimite de ancho a las fotos para evitar que se deformen*/ } }
 
 /* RESPONSIVE PARA CELULARES*/
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
+  p {
+    font-family: sans-serif;
+    color: #070c20; }
   .menu-encolumnado-celulares {
     flex-direction: column; }
   #arbitro {
     font-family: 'Rubik Distressed', cursive;
     /*titulo principal*/
-    color: #00ffbf;
-    margin-top: 55px;
-    text-align: center; }
+    color: #0112a7;
+    margin: auto;
+    text-align: center;
+    margin-top: 300px; }
+  #contencion {
+    width: 100%; }
   #imagen {
     /*la imagen del index tiene un borde redondeado*/
-    border-radius: 350px;
-    max-width: 650px;
-    margin: auto; }
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 260px;
+    height: 210px; }
   body {
     /*imagen de fondo fija para todo el sitio*/
     background-image: url(../Imagenes/fondo-imagen-para-celular-responsive.jpg);
-    padding: auto; }
+    max-width: 768px; }
   nav a {
     display: flex;
     color: #0d0e0d;
@@ -322,10 +363,10 @@ footer {
     width: 60px;
     border-radius: 12px;
     text-decoration: none; }
-  .diferente {
+  .diferentes {
     display: flex;
-    color: #0d0e0d;
-    background-color: #012944;
+    color: #6feb1c;
+    background-color: #046164;
     padding: 15px 30px;
     width: 60px;
     border-radius: 12px;
@@ -383,15 +424,59 @@ footer {
     /*titulo de los articulos a vender*/
     color: #00ff62;
     content: center;
-    margin-top: 55px;
     border-radius: 15px;
-    text-align: center; }
+    text-align: center;
+    margin-top: 330px; }
   .contenedor {
     display: block;
     margin: auto; }
   .contenedor2 {
     display: block; }
   div table {
+    background-color: #c1f3c9;
     margin: auto;
     text-align: center;
-    color: #ff1100; } }
+    color: #ff1100;
+    width: 100px;
+    height: 340px;
+    overflow: scroll; }
+  .tabla-reducida {
+    margin-top: 10px;
+    width: 250px;
+    height: 420px;
+    overflow: auto; }
+  .radio {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 260px;
+    height: 210px; }
+  body div form {
+    position: absolute;
+    display: block;
+    margin: auto;
+    width: 370px;
+    height: 290px; }
+  .formulario {
+    display: block;
+    margin: auto;
+    margin-top: 335px; }
+  .formulario2 {
+    display: block;
+    margin: auto; }
+  #boton-de-arrepentimiento {
+    margin-top: 10px; }
+    #boton-de-arrepentimiento a:hover {
+      /*efecto cuando pasa el puntero por encima de los botones*/
+      background-color: transparent;
+      border: 2px solid #f59797;
+      color: #07cf07; }
+  footer {
+    color: #0e0d0d;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    background-color: #eeb7ad;
+    border-radius: 4px;
+    padding: 5px; } }
