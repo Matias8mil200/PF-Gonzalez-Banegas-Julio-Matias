@@ -115,7 +115,8 @@ h2 {
 div table {
   margin: auto;
   text-align: center;
-  color: #ff7b00; }
+  color: #02325f;
+  background-color: #a7e1fcaf; }
 
 nav {
   text-align: center;
@@ -274,7 +275,7 @@ footer {
   #arbitro {
     font-family: 'Rubik Distressed', cursive;
     /*titulo principal*/
-    color: #ff0022;
+    color: #001529;
     margin-top: 55px;
     text-align: center; }
   #imagen {
@@ -290,7 +291,7 @@ footer {
     background-image: url(../Imagenes/fondo-general-para-tablet.jpg);
     padding: auto; }
   h2 {
-    color: #ff5f03;
+    color: #022463;
     background-color: #b5c7a5;
     border-radius: 5px;
     display: block;
@@ -307,7 +308,9 @@ footer {
   div table {
     margin: auto;
     text-align: center;
-    color: #33ff00; }
+    color: #055096;
+    background-color: #d8f0d2c9;
+    margin-top: 5px; }
   nav a {
     /*diseño de los enlaces externos con apariencia de botones*/
     color: #eb082e;
