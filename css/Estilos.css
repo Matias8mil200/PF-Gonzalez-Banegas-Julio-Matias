@@ -89,11 +89,11 @@ footer {
   margin-top: 55px; }
 
 h2 {
-  color: #ff5e00; }
+  color: #ff1e00;
+  background-color: #333557d2; }
 
 .treinta {
   /*titulo de los articulos a vender*/
-  color: #ff5e00;
   content: center;
   margin-top: 55px;
   border-radius: 15px;
