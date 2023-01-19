@@ -63,9 +63,17 @@ body {
   background-image: url(../Imagenes/2018-wallpaper.jpg);
   padding: auto; }
 
-form {
-  /*COLOR de los textos del formulario ANARANJADO FUERTE*/
-  color: #ff3c00; }
+.titulo-formulario {
+  background-color: #a7e1fc;
+  margin: 0%;
+  border-radius: 0%; }
+
+label {
+  color: #ff0000;
+  /*COLOR de los textos del formulario ANARANJADO FUERTE*/ }
+
+.formulario {
+  background-color: #c1f3c9; }
 
 footer {
   /*color para el pie de pagina*/
@@ -337,7 +345,7 @@ footer {
   #arbitro {
     font-family: 'Rubik Distressed', cursive;
     /*titulo principal*/
-    color: #0112a7;
+    color: #ffe600;
     margin: auto;
     text-align: center;
     margin-top: 300px; }
@@ -416,7 +424,7 @@ footer {
     text-align: center; }
   h2 {
     color: #00ff62;
-    background-color: #6c9ebe;
+    background-color: rgba(108, 159, 190, 0.925);
     border-radius: 5px;
     padding: 3px 5px 3px 5px;
     text-align: center; }
@@ -440,9 +448,10 @@ footer {
     width: 100px;
     height: 340px;
     overflow: scroll; }
+  /*corte la tabla con scroll horizontal*/
   .tabla-reducida {
     margin-top: 10px;
-    width: 250px;
+    width: 100%;
     height: 420px;
     overflow: auto; }
   .radio {
@@ -451,32 +460,34 @@ footer {
     margin-top: 10px;
     border-radius: 5px;
     width: 260px;
-    height: 210px; }
-  body div form {
-    position: absolute;
-    display: block;
-    margin: auto;
-    width: 370px;
-    height: 290px; }
-  .formulario {
-    display: block;
-    margin: auto;
-    margin-top: 335px; }
-  .formulario2 {
-    display: block;
-    margin: auto; }
-  #boton-de-arrepentimiento {
-    margin-top: 10px; }
-    #boton-de-arrepentimiento a:hover {
-      /*efecto cuando pasa el puntero por encima de los botones*/
-      background-color: transparent;
-      border: 2px solid #f59797;
-      color: #07cf07; }
-  footer {
-    color: #0e0d0d;
-    display: block;
-    margin: auto;
-    margin-top: 80px;
-    background-color: #eeb7ad;
-    border-radius: 4px;
-    padding: 5px; } }
+    height: 210px; } }
+
+.titulo-formulario {
+  background-color: #a7e1fc;
+  margin: 0%;
+  border-radius: 0%; }
+
+label {
+  color: #ff0000;
+  /*COLOR de los textos del formulario ANARANJADO FUERTE*/ }
+
+.formulario {
+  background-color: #c1f3c9;
+  margin-top: 330px; }
+
+#boton-de-arrepentimiento {
+  margin-top: 10px; }
+  #boton-de-arrepentimiento a:hover {
+    /*efecto cuando pasa el puntero por encima de los botones*/
+    background-color: transparent;
+    border: 2px solid #f59797;
+    color: #07cf07; }
+
+footer {
+  color: #0e0d0d;
+  display: block;
+  margin: auto;
+  margin-top: 80px;
+  background-color: #eeb7ad;
+  border-radius: 4px;
+  padding: 5px; }
